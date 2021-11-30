@@ -1,0 +1,44 @@
+.mainBox{
+    display: none;
+}
+.mainBox.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.modalBox{
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.modalHeader{
+    background-color: #E74C3C;
+    border-radius: 5px 5px 0 0;
+}
+.modalHeaderTxt{
+    color: white;
+    font-size: 1.3em;
+    padding: 0 20px;
+}
+.text{
+    display: block;
+    padding: 0 20px;
+}
+.button{
+    float: right;
+    font-size: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #E74C3C;
+    color: white;
+    padding: 5px 25px;
+    margin: 10% 20px 4% 0;
+}

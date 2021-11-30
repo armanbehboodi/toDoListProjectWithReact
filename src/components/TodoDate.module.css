@@ -1,0 +1,15 @@
+p{
+    display: inline-block;
+    padding-right: 0.6em;
+}
+.yearStyle{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.box{
+    padding: 0 10%;
+    display: inline-block;
+}

@@ -1,0 +1,55 @@
+.input{
+    display: inline-block;
+    margin: 1em 0 0 10%;
+    width: 55%;
+    height: 7vh;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid #ddd;
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro' , sans-serif;
+    padding: 0 15px;
+}
+.input:focus{
+    outline: none;
+}
+.btn{
+    margin-top: 1em;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.AddBtn{
+    margin-left: 10%;
+    color: white;
+    background-color: #E74C3C;
+    border: 1px solid #E74C3C;
+    margin-right: 10px;
+    padding: 6px 18px;
+}
+.CancelBtn{
+    background-color: white;
+    border: 2px solid #ddd;
+    padding: 6px 14px;
+    color: #404040;
+    margin-right: 10px;
+}
+.newBtn{
+    margin: 0;
+}
+.parentBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.dateInput{
+    width: 20%;
+    height: 7vh;
+    border-radius: 0 5px 5px 0;
+    border: 2px solid #ddd;
+    border-left: 0;
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro' , sans-serif;
+    padding: 0 15px;
+}

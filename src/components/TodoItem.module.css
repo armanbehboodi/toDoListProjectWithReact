@@ -1,0 +1,41 @@
+.box{
+    padding: 0 10%;
+}
+.box.remove{
+    display: none;
+}
+.text{
+    display: inline-block;
+    font-weight: bold;
+}
+.text.line{
+    text-decoration: line-through;
+}
+.checkBox{
+    width: 1.3em;
+    height: 1.3em;
+    margin: 0 10px 0 0;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    vertical-align: middle;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+}
+.checkBox:checked{
+    background-image: url("../images/checkMark.png");
+    background-size: 100% 100%;
+}
+.checkBox.newChecked{
+    background-image: url("../images/checkMark.png");
+    background-size: 100% 100%;
+}
+hr{
+    border: 1px solid #ddd;
+}
+.parentBox{
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    box-shadow: 6px 6px 16px 0 rgba(209,205,199,0.5),-6px -6px 16px 0 rgba(255,255,255,0.5) ;
+}

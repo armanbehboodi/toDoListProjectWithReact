@@ -1,0 +1,17 @@
+.mainBox{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.mainBox.visible{
+    display: none;
+}
+.steve{
+    width: 240px;
+    height: 240px;
+}
+.para{
+    font-weight: bold;
+    margin-top: 0;
+}
